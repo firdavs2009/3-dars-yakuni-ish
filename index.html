@@ -8,68 +8,91 @@
   </head>
   <body>
     <form action="">
-      <label for="fff"></label>
-      <input
-        type="text"
-        id="fff"
-        size="55"
-        placeholder="ismingiz"
-        spellcheck="true"
-        maxlength="7"
-        minlength="5"
-        required
-        list="d1"
-       value="fff"/>
-      <datalist id="d1">
-        <option value="1"></option>
-        <option value="2"></option>
-        <option value="3"></option>
-      </datalist>
+      <table border="1" bgcolor="#ffe4c4	">
+        <tr>
+          <th colspan="2">
+            <h3>Royxattan otish</h3>
+          </th>
+        </tr>
+        <tr>
+          <td>
+            <label for="t1">Toliq ismi</label><br />
+            <input type="text" size="40" placeholder="Ismingiz kiriting" />
+          </td>
+          <td>
+            <label for="t1">Login </label><br />
+            <input type="text" size="40" placeholder="Loginni kiriting" />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="t1">Elektron manzil</label><br />
+            <input type="text" size="40" placeholder="M:test @gmail.com" />
+          </td>
+          <td>
+            <label for="t1">Tekefon raqam</label><br />
+            <input type="text" size="40" placeholder="M:+998 90 123 45 67 " />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="t1">Parolni tasdiqlash</label><br />
+            <input type="text" size="40" placeholder="Parol qyta kiriting" />
+          </td>
+          <td>
+            <label for="t1">Parol</label><br />
+            <input type="text" size="40" placeholder="Parol kiriting" />
+          </td>
+        </tr>
 
-      <br />
-      <br />
-      <br />
-      <fieldset>
-        <legend>Bittasini tanlang</legend>
-        <input type="radio" id="r1" name="tanlash" /><label for="r1"
-          >parol</label
-        >
-        <input type="radio" id="r2" name="tanlash" checked /><label for="r1"
-          >elektronniy pochta</label
-        >
-      </fieldset>
-      <fieldset>
-        <legend>Tanlang</legend>
-        <input type="checkbox" id="r1" name="tanlash" /><label for="r1"
-          >parol</label
-        >
-        <input type="checkbox" id="r2" name="tanlash" checked /><label for="r1"
-          >telegaram</label
-        >
-      </fieldset>
-      <br /><br />
-      <input type="submit" value="saqlash" formaction="index.html" />
-      <br /><br />
-      <label for="email1"></label><input type="email" id="email1" />
+        <tr>
+          <td>
+            <legend>Jinsingiz</legend>
+            <input type="radio" id="r1" name="tanlash" />
+            <label for="r1">Erkak</label>
+            <input type="radio" id="r1" name="tanlash" />
+            <label for="r1">Ayol</label>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <br />
+            <legend>Qiziqishingiz</legend>
+            <input type="checkbox" id="r1" name="tanlash" />
+            <label for="r1">ID</label>
+            <input type="checkbox" id="r1" name="tanlash" />
+            <label for="r1">Sport</label>
+            <input type="checkbox" id="r1" name="tanlash" />
+            <label for="r1">Musiqa</label>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2">
+            <br />
+            <label for="">Ozingiz xaqida qisqacha </label><br />
+            <textarea
+              name=""
+              id=""
+              cols="100"
+              rows="15"
+              placeholder="Ozingiz xaqida yozin"
+            ></textarea>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <br />
 
-      <br /><br />
-      <label for="color1">Rang tanlang:</label
-      ><input type="color" id="color1" /> <br /><br />
-      <label for="file1 ">Fayilni yuklang:</label
-      ><input type="file" id="file1" /> <br /><br />
-      <input type="password" />
-      <br /><br />
-      <input type="range" />
-      <br /><br />
-      <input type="url" />
-      <input type="submit" value="saqlash" formaction="index.html" />
-      <br /><br />
-      <br /><br />
-      <input type="tel" pattern="[o-9]{2}[0-9]{3}-[o-9]{2}-[o-9]{2}" />
-      <br /><br />
-<input type="reset">
-      <br /><br />
-      <input type="submit" value="saqlash" formaction="index.html" />
+            <label for="t1">Tugilgan sana</label>
+            <input type="text" id="t1" size="20" value="mm/dd/yyyy" />
+          </td>
+        </tr>
+        <tr>
+        <td align="center"  colspan="2">
+            <input type="submit" value="saqlash"  id="r1" name="tanlash"/>
+        </td>
+        <tr>
+      </table>
     </form>
   </body>
 </html>
